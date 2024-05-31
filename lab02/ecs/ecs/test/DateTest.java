@@ -9,5 +9,12 @@ class DateTest {
     Date d = new Date(2020,5,3);
     assertEquals(new Date(2020,5,4), d.nextDate());
   }
+@Test
+  void nextDate_sample2() {
+    Date d = new Date(2020,5,3);
+    assertEquals(new Date(2020,5,4), d.nextDate());
+  }
+
+
 
 }
