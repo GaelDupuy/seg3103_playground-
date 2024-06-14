@@ -1,7 +1,7 @@
 public class FizzBuzz {     
     public String fizzBuzz(int n) {     
         if (n == 0) {                                 // check for 0
-            return "Fizz";
+            return "FizzBuzz";
         } else if (n % 3 == 0 && n % 5 == 0) {     // check of 3 and 5 
             return "FizzBuzz";
         } else if (n % 3 == 0) {                    // check for multiples of 3 
